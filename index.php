@@ -1,30 +1,32 @@
 <!DOCTYPE html>
+
 <head>
 
 </head>
-<body>
-    <form action="traitement.php" method="post">
-     
-    <label for="">NOM :
-       &nbsp &nbsp &nbsp &nbsp  &nbsp
-     <input type="Nom"Nomb >
-     </label>
-    <br>
-    <br>
-  
-    <label for="">PRIX :
-       &nbsp &nbsp &nbsp &nbsp  &nbsp 
-     <input type="Name">
-     </label>
-    <br>
-    <br>
 
-    <label for="">QUANTITE :
-    <input type="Name"><br>
+<body>
+
+
+  <form action="traitement.php" method="post">
+
+    <label for="name">sNOM :
+      <input type="text" name="name" id="name">
     </label>
     <br>
     <br>
 
-<input type="submit" name="submit" value="Ajouter le produit">
-    </form>
+    <label for="price">PRIX :
+      <input type="number" name="price" id="price">
+    </label>
+    <br>
+    <br>
+
+    <label for="qtt">QUANTITE :
+      <input type="number" name="qtt" id="qtt"><br>
+    </label>
+    <br>
+    <br>
+
+    <input type="submit" name="submit" value="Ajouter le produit">
+  </form>
 </body>
