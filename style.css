@@ -1,0 +1,33 @@
+body{
+    color: green;
+    background-color: black;
+    
+}
+#header{
+    padding-top: 22px;
+    color: green;
+    font-family: "Press Start 2P";
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#tam{
+    font-family: "Press Start 2P";
+    display: flex ;
+    border-style:  dashed;
+    border-width: 18px;
+    justify-content: center;
+    color: green;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 22px;
+    width: 600px;
+
+}
+#traitment{
+    display: flex;
+    margin-right: 600px;
+    justify-content: right;
+    margin-top: 22px;
+}

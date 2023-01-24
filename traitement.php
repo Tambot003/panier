@@ -1,6 +1,12 @@
 <?php
   session_start();
+
+  switch($_GET["action"]) {
+    case "addProduct" :
+    
+    $addprudact;
     if (isset($_POST['submit'])){
+        
 
     $name = filter_input(INPUT_POST,  "name", FILTER_SANITIZE_STRING);
     $price = filter_input(INPUT_POST, "price", FILTER_VALIDATE_FLOAT, FILTER_FLAG_ALLOW_FRACTION);
@@ -18,3 +24,6 @@
     }
 }
 header("location: index.php");
+
+
+  }
