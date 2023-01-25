@@ -47,6 +47,7 @@ body{
 }
 
 a{
+<<<<<<< HEAD
    text-decoration: rgb(255, 0, 51);
     color: rgb(35, 155, 45);
 
@@ -76,4 +77,13 @@ table {
     padding: 20px;
     border-style: dashed;
     border-radius:  25px;
+=======
+    text-decoration: none;
+
+}
+
+.test{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+>>>>>>> 4f2760a1bd16202ed5c6e1b4f533a7582f1feae7
 }

@@ -43,8 +43,13 @@ else{
                 "<td>" . $index . "</td>",
                 "<td>" . $product["name"] . "</td>",
                 "<td>" .number_format( $product["price"],2,",", "&nbsp;"). "&nbsp € </td>", "<td>"  .$product['qtt'] . "</td>",
+<<<<<<< HEAD
                 
                 "<td><a class='test' href='traitement.php?action=lowerQtt&id=$index'> - </a>" . $product["qtt"] . "<a class='test2' href='traitement.php?action=addQtt&id=$index'> + </a>" . "<a href=traitement.php?action=" . $index . "></a></td>",
+=======
+                // "<td><a class='test' style='color: red' href='traitement.php?action=lowerQtt&id=$index'> - </a>" . $product["qtt"] . "<a class='test2' href='traitement.php?action=addQtt&id=$index'> + </a>" . "<a href='traitement.php?action=" . $index . "'></a></td>",
+                "<td><a class=\"test\" href='traitement.php?action=lowerQtt&id=$index'> - </a>" . $product["qtt"] . "<a class='test2' href='traitement.php?action=addQtt&id=$index'> + </a>" . "<a href=traitement.php?action=" . $index . "></a></td>",
+>>>>>>> 4f2760a1bd16202ed5c6e1b4f533a7582f1feae7
                 "<td>"  . number_format( $product["total"],2,",", "&nbsp;"). "&nbsp </td>",
                 "<a href='traitement.php?action=deletePanier&id=" . $index . "'> <img src='img\poubelle.png' alt=''/> </a></td>",
             "</tr>";
@@ -59,6 +64,10 @@ echo "</tbody>",
      "</table>";
 }
 ?>
+<<<<<<< HEAD
 <a class="delet" href="traitement.php?action=deleteAll"> DELET ALL</a>
+=======
+<a href="traitement.php?action=deleteAll"> delete thiiiiiii/a>
+>>>>>>> 4f2760a1bd16202ed5c6e1b4f533a7582f1feae7
 </body>
 </html>
