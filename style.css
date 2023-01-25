@@ -1,11 +1,23 @@
 body{
-    color: green;
-    background-color: black;
-    
+    background-color: #000000;
 }
+#lin{
+    margin-left: 55px;
+    color: rgb(0, 255, 21);
+    border-style: double;
+}
+
+.centrer {
+    background-color: #1f0202;
+    display: flex;
+    justify-content: center;
+    
+    margin:  0 auto;
+}
+
 #header{
     padding-top: 22px;
-    color: green;
+    color: rgb(0, 255, 21);
     font-family: "Press Start 2P";
     font-size: 30px;
     display: flex;
@@ -13,12 +25,14 @@ body{
 }
 
 #tam{
+    margin-top: 65px;
     font-family: "Press Start 2P";
     display: flex ;
     border-style:  dashed;
-    border-width: 18px;
+    border-radius: ;
+    border-width: 8px;
     justify-content: center;
-    color: green;
+    color: rgb(2, 255, 2);
     margin: 0 auto;
     margin-top: 20px;
     padding: 22px;
@@ -30,4 +44,36 @@ body{
     margin-right: 600px;
     justify-content: right;
     margin-top: 22px;
+}
+
+a{
+   text-decoration: rgb(255, 0, 51);
+    color: rgb(35, 155, 45);
+
+}
+
+.delet{
+    color: #ff0000;
+    border-style: dashed;
+    border-color: rgba(255, 251, 0, 0.918);
+    margin-left: 100px;
+     padding: 5px;
+     border-radius: 5px;
+     background-color: rgb(105, 18, 10);
+}
+.test1{
+    color: rgb(233, 233, 0);
+    border:  2px;
+    border-color: rgb(31, 141, 236);
+    width: 4px;
+    height: 4px;
+}
+
+table { 
+    background-color: #051a00;
+    border-color:rgba(255, 251, 0, 0.918);
+    margin-bottom: 10px;  
+    padding: 20px;
+    border-style: dashed;
+    border-radius:  25px;
 }
