@@ -31,3 +31,13 @@ body{
     justify-content: right;
     margin-top: 22px;
 }
+
+a{
+    text-decoration: none;
+
+}
+
+.test{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
