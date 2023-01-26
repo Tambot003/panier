@@ -21,12 +21,12 @@ switch ($_GET["action"]) {
                     "total" => $price * $qtt,
                 ];
                 $_SESSION["products"][] = $product;
-                $_SESSION['message'] =   "Product has been Aadded";
+                $_SESSION['message'] = "Product has been Aadded";
             } else {
                 echo "Something very wrong has happened";
             }
 
-           
+
 
             header("Location: index.php");
         }

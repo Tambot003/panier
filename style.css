@@ -1,9 +1,9 @@
 * {
-    color: rgb(60, 255, 0);
-    background-color: black;
+    background-color: #FFFFF0;
     padding: 9px;
     margin: 0px;
-    font-family: "Press Start 2P";
+
+    /* font-family: "Press Start 2P"; */
 }
 
 #lin {
@@ -12,64 +12,62 @@
 }
 
 .cen1 {
-    display: flex;
-    text-decoration: none;
-    border-style: double;
-    margin-left: 100px;
-   
-    padding: 5px;
-    border-radius: 200px;
-    justify-content: center;
-    margin: 0 auto;
-    width: 700px;
+
+    background-color: rgb(73, 73, 73);
+    color: white;
+    padding: 10px;
+
 }
 
 .cen1 a {
-    padding: 2px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    
-    justify-content: space-around;
-    text-decoration: none;
-    border-style: dashed;
-    border-radius: 200;
+    text-align: center;
+    justify-content: center;
 }
 
 .cen2 {
-    display: flex;
-    text-decoration: none;
-    border-style: double;
-    margin-left: 100px;
-    
-    padding: 5px;
-    border-radius: 5px;
-    justify-content: center;
-    margin: 0 auto;
-    width: 875px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    padding: 10px;
 }
 
 .cen2 a {
-    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
-#header {
+
+#p {
     padding-top: 22px;
     font-size: 20px;
     display: flex;
     justify-content: center;
 }
 
-#tam {
-    border-width: 1px;
-    display: flex;
-    justify-content: center;
-    border-style: outset;
-    margin-top: 65px;
-    border-style: dashed;
-    border-radius: 22px;
-    margin: 0 auto;
-    padding: 15px;
-    margin-top: 20px;
-    width: 800px;
+
+
+.tam {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 450px;
+    height: 380px;
+    background-color: rgb(233, 233, 233);
+    padding-top: 5px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(122, 122, 122);
+
 }
+
 
 #deletB {
     display: flex;
@@ -80,7 +78,7 @@
 
 .delet {
     text-decoration: none;
-    background-color: rgb(255, 1, 1);
+    background-color: rgb(214, 2, 2);
     border-style: double;
     margin-left: 100px;
     padding: 9px;
@@ -94,22 +92,38 @@ table {
     margin-bottom: 20px;
 }
 
-th, td {
-    border: 1px solid ;
-    padding: 8px;
+th,
+td {
+    border: 1px solid;
+    padding: 4px;
     text-align: center;
+
 }
 
 th {
-    
+
     font-weight: bold;
+
 }
 
 td {
     font-size: 25px;
+
 }
 
 td a {
     text-decoration: none;
+    display: flex;
+    justify-content: center;
 
+}
+
+#test1,
+a {
+    color: rgb(255, 170, 0);
+}
+
+img {
+
+    margin-top: 2px;
 }

@@ -6,10 +6,13 @@
 </head>
 
 <body>
+
+
   <div class="cen1">
     <a href="index.php">HOME</a>
     <a href="recap.php">RECAPLUTIVE</a>
   </div>
+
   <?php
   session_start();
   $message = (isset($_SESSION['message'])) ? $_SESSION['message'] : null;
@@ -19,15 +22,14 @@
   // else{
   //   $message = null;
   // }
-
-  gg
   echo $message;
   unset($_SESSION['message']);
   ?>
-  <div id="header">
+  <div id="p">
+
     AJOUTER LE PRODUIT
   </div>
-  <div id="tam">
+  <div class="tam">
     <form action="traitement.php?action=addproducts" method="post">
 
       <label for="name">NOM :
@@ -53,6 +55,7 @@
   </div>
   <div id="deletB">
     <inpuet type="submit" name="submit" value="delet">
+  </div>
   </div>
 
 
