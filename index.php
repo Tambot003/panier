@@ -19,6 +19,8 @@
   // else{
   //   $message = null;
   // }
+
+  gg
   echo $message;
   unset($_SESSION['message']);
   ?>
