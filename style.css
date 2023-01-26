@@ -1,89 +1,115 @@
-body{
-    background-color: #000000;
+* {
+    color: rgb(60, 255, 0);
+    background-color: black;
+    padding: 9px;
+    margin: 0px;
+    font-family: "Press Start 2P";
 }
-#lin{
+
+#lin {
     margin-left: 55px;
-    color: rgb(0, 255, 21);
+
+}
+
+.cen1 {
+    display: flex;
+    text-decoration: none;
     border-style: double;
-}
-
-.centrer {
-    background-color: #1f0202;
-    display: flex;
+    margin-left: 100px;
+   
+    padding: 5px;
+    border-radius: 200px;
     justify-content: center;
-    
-    margin:  0 auto;
-}
-
-#header{
-    padding-top: 22px;
-    color: rgb(0, 255, 21);
-    font-family: "Press Start 2P";
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-#tam{
-    margin-top: 65px;
-    font-family: "Press Start 2P";
-    display: flex ;
-    border-style:  dashed;
-    border-radius: ;
-    border-width: 8px;
-    justify-content: center;
-    color: rgb(2, 255, 2);
     margin: 0 auto;
-    margin-top: 20px;
-    padding: 22px;
-    width: 600px;
-
+    width: 700px;
 }
-#traitment{
+
+.cen1 a {
+    padding: 2px;
+    display: flex;
+    
+    justify-content: space-around;
+    text-decoration: none;
+    border-style: dashed;
+    border-radius: 200;
+}
+
+.cen2 {
+    display: flex;
+    text-decoration: none;
+    border-style: double;
+    margin-left: 100px;
+    
+    padding: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 875px;
+}
+
+.cen2 a {
+    text-decoration: none;
+}
+#header {
+    padding-top: 22px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#tam {
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    border-style: outset;
+    margin-top: 65px;
+    border-style: dashed;
+    border-radius: 22px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 20px;
+    width: 800px;
+}
+
+#deletB {
     display: flex;
     margin-right: 600px;
     justify-content: right;
     margin-top: 22px;
 }
 
-a{
-<<<<<<< HEAD
-   text-decoration: rgb(255, 0, 51);
-    color: rgb(35, 155, 45);
-
-}
-
-.delet{
-    color: #ff0000;
-    border-style: dashed;
-    border-color: rgba(255, 251, 0, 0.918);
+.delet {
+    text-decoration: none;
+    background-color: rgb(255, 1, 1);
+    border-style: double;
     margin-left: 100px;
-     padding: 5px;
-     border-radius: 5px;
-     background-color: rgb(105, 18, 10);
-}
-.test1{
-    color: rgb(233, 233, 0);
-    border:  2px;
-    border-color: rgb(31, 141, 236);
-    width: 4px;
-    height: 4px;
+    padding: 9px;
+    border-radius: 200px;
 }
 
-table { 
-    background-color: #051a00;
-    border-color:rgba(255, 251, 0, 0.918);
-    margin-bottom: 10px;  
-    padding: 20px;
-    border-style: dashed;
-    border-radius:  25px;
-=======
+table {
+    width: 100%;
+    margin: 150px auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid ;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    
+    font-weight: bold;
+}
+
+td {
+    font-size: 25px;
+}
+
+td a {
     text-decoration: none;
 
-}
-
-.test{
-    font-size: 30px;
-    color: rgb(255, 0, 0);
->>>>>>> 4f2760a1bd16202ed5c6e1b4f533a7582f1feae7
 }
