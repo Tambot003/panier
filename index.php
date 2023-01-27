@@ -11,7 +11,7 @@
   <li>
     <div class="cen1">
       <a id="homeb" href="index.php">HOME </a>
-      &nbsp &nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp
       <a id="recapb" href="recap.php">RECAPLUTIVE</a>
     </div>
 
@@ -33,26 +33,26 @@
 
 
       <form action="traitement.php?action=addproducts" method="post">
-
-        <label for="name">NOM :
+    
+        <label id="name" for="name">NOM 
           <input type="text" name="name" id="name">
         </label>
         <br>
         <br>
 
-        <label for="price">PRIX :
+        <label id="price" for="price">PRIX 
           <input type="number" name="price" id="price">
         </label>
         <br>
         <br>
 
-        <label for="qtt">QUANTITE :
+        <label id="qtt" for="qtt">QUANTITE 
           <input type="number" name="qtt" id="qtt"><br>
         </label>
         <br>
         <br>
 
-        <input type="submit" name="submit" value="Accept">
+        <input id="submit" type="submit" name="submit" value="ACCEPT">
       </form>
     </div>
     <div id="deletB">

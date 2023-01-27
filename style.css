@@ -1,29 +1,36 @@
+*{
+    font-family: "Press Start 2p";
+    background-color: transparent;
+}
 /*--------------------HEADER HOME----------------------*/
 .cen1 {
-    background-color: rgb(73, 73, 73);
-    color: white;
+    background-color: #808080;
+    color: rgb(202, 190, 190);
     padding: 10px;
     list-style-type: none;
     margin: 0;
-    padding: 3px;
+    padding: 5px;
     display: flex;
     text-align: center;
     justify-content: center;
     border-radius: 33px;
 }
 #homeb {
-    color: beige;
+    color: rgb(255, 255, 0);
     text-decoration: none;
     border-style: outset;
     border-radius: 3px;
-    width: 100px;
+    width: 120px ;
+    padding: 3px;
 }
 #recapb {
-    color: beige;
+   
+    padding: 3px;
+    color: rgb(255, 255, 0);
     text-decoration: none;
     border-style: outset;
     border-radius: 3px;
-    width: 100px;
+    width: 100px auto;
 /*-----------------------------------------------------*/
 /*-----------------------------------------------------*/
 }
@@ -31,30 +38,32 @@
 
 /*--------------------HEADER RECAP----------------------*/
 .cen2 {
-    background-color: rgb(73, 73, 73);
-    color: white;
+    background-color: #808080;
+    color: rgb(202, 190, 190);
     padding: 10px;
     list-style-type: none;
     margin: 0;
-    padding: 3px;
+    padding: 5px;
     display: flex;
     text-align: center;
     justify-content: center;
     border-radius: 33px;
 }
 #homeR {
-    color: beige;
+    padding: 3px;
+    color: rgb(255, 255, 0);
     text-decoration: none;
     border-style: outset;
     border-radius: 3px;
-    width: 100px;
+    width: 120px ;
 }
 #recapR {
-    color: beige;
+    padding: 3px;
+    color: rgb(255, 255, 0);
     text-decoration: none;
     border-style: outset;
     border-radius: 3px;
-    width: 100px;
+    width: 100px auto;
 }
 
 /*-----------------------------------------------------*/
@@ -62,22 +71,63 @@
 .cantinaier {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: auto;
+    margin: 50px auto;
     width: 500px;
-    height: 300px;
+    height: 350px;
     background-color: rgb(209, 209, 209);
     padding: 22px;
     border-style: unset;
-    border-radius: 20px;
-    font-family: Press Start 2P;
+    border-radius: 10px;
     color: rgb(122, 122, 122);
 }
 
 
+#submit{
+    border-color: rgb(255, 255, 0);
+    background-color: #808080;
+    padding: 3px;
+    color: rgb(255, 255, 0);
+    text-decoration: none;
+    border-width: 7px;
+    border-style: outset 22px;
+    border-radius: 3px;
+    width: 100px ;
+    height: 40px;
+}
+form{
+    background-color: transparent;
+    width: 100px;
+    height: 190px;
+}
+
+
+#name{
+    width: 350px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    font-weight: bolder;
+    height: 30px;
+}
+
+#price{
+    width: 350px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 4px;
+    font-weight: bolder;
+    height: 20px;
+}
+
+#qtt{
+    width: 350px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    padding: 4px;
+    font-weight: bolder;
+    height: 20px;
+}
 #p {
+    background-color: transparent;
     padding-top: 22px;
     font-size: 20px;
     display: flex;
@@ -104,23 +154,36 @@
 }
 
 table {
-    width: 100%;
-    margin: 150px auto;
-    border-collapse: collapse;
+    font-family: sans-serif;
+    width: auto 1500px;
     margin-bottom: 20px;
+    flex-direction: column;
+    margin: 50px auto;
+    background-color: rgb(209, 209, 209);
+    color: rgb(122, 122, 122);
 }
 
-th,
-td {
-    border: 1px solid;
-    padding: 4px;
+tr{
+    font-weight: bolder;
+}
+
+th, td {
+    
+    font-family: sans-serif;
+    border-style:groove ;
+    width: 500px;
+    padding: 3px;
     text-align: center;
+    
 
 }
 
 th {
-
-    font-weight: bold;
+border-color: #000000;
+border-style: double;
+height: 10px;
+font-weight: bolder;
+padding: 10px;
 
 }
 
@@ -146,15 +209,12 @@ img {
     margin-top: 2px;
 }
 
-
-
-
-
 .mminimization {
     color: rgb(255, 0, 0);
 }
 
 .maximization {
-    color: rgb(17, 119, 17);
+    color: rgb(1, 168, 1);
 
 }
+
