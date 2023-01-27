@@ -15,9 +15,13 @@ session_start();
 
 <body>
        <div class="cen2">
-        <a id="homeR" href="index.php">HOME</a>
+        <div id="homeR">
+        <a  href="index.php">HOME</a>
+        </div>
         &nbsp &nbsp&nbsp&nbsp
-        <a id="recapR" href="recap.php">RECAPLUTIVE</a>
+        <div id="recapR">
+        <a  href="recap.php">RECAPLUTIVE</a>
+        </div>
     </div>
     <?php
     if (!isset($_SESSION['products']) || empty($_SESSION['products'])) {
@@ -57,7 +61,9 @@ session_start();
             "</table>";
     }
     ?>
-    <a class="delet" href="traitement.php?action=deleteAll"> DELET ALL</a>
+  <div id="delet">
+    <a  href="traitement.php?action=deleteAll"> DELET ALL</a>
+    </div>
 </body>
 
 </html>

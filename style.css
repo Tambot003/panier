@@ -1,7 +1,8 @@
-*{
+* {
     font-family: "Press Start 2p";
     background-color: transparent;
 }
+
 /*--------------------HEADER HOME----------------------*/
 .cen1 {
     background-color: #808080;
@@ -15,24 +16,33 @@
     justify-content: center;
     border-radius: 33px;
 }
-#homeb {
-    color: rgb(255, 255, 0);
+
+#homeb a {
+    color: white;
     text-decoration: none;
-    border-style: outset;
+}
+#homeb  {
+ 
+    background-color: rgb(17, 103, 139);
+    border-style: groove;
     border-radius: 3px;
-    width: 120px ;
+    width: 120px;
     padding: 3px;
 }
-#recapb {
-   
-    padding: 3px;
-    color: rgb(255, 255, 0);
+#recapb a {
+    color: white;
     text-decoration: none;
-    border-style: outset;
+    
+}
+
+#recapb {
+    background-color: rgb(17, 103, 139);
+    border-style: groove;
     border-radius: 3px;
-    width: 100px auto;
-/*-----------------------------------------------------*/
-/*-----------------------------------------------------*/
+    width: 120px;
+    padding: 3px;
+   /*-----------------------------------------------------*/
+    /*-----------------------------------------------------*/ 
 }
 
 
@@ -49,21 +59,30 @@
     justify-content: center;
     border-radius: 33px;
 }
-#homeR {
-    padding: 3px;
-    color: rgb(255, 255, 0);
+
+#homeR a{
+    color: white;
     text-decoration: none;
-    border-style: outset;
+
+}
+#homeR  {
+    background-color: rgb(17, 103, 139);
+    border-style: groove;
     border-radius: 3px;
-    width: 120px ;
+    width: 120px;
+    padding: 3px;
+}
+#recapR a {
+
+ color: white;
+    text-decoration: none;
 }
 #recapR {
-    padding: 3px;
-    color: rgb(255, 255, 0);
-    text-decoration: none;
-    border-style: outset;
+    background-color: rgb(17, 103, 139);
+    border-style: groove;
     border-radius: 3px;
-    width: 100px auto;
+    width: 120px;
+    padding: 3px;
 }
 
 /*-----------------------------------------------------*/
@@ -82,7 +101,7 @@
 }
 
 
-#submit{
+#submit {
     border-color: rgb(255, 255, 0);
     background-color: #808080;
     padding: 3px;
@@ -91,17 +110,18 @@
     border-width: 7px;
     border-style: outset 22px;
     border-radius: 3px;
-    width: 100px ;
+    width: 100px;
     height: 40px;
 }
-form{
+
+form {
     background-color: transparent;
     width: 100px;
     height: 190px;
 }
 
 
-#name{
+#name {
     width: 350px;
     font-family: sans-serif;
     border-radius: 10px;
@@ -109,7 +129,7 @@ form{
     height: 30px;
 }
 
-#price{
+#price {
     width: 350px;
     font-family: sans-serif;
     border-radius: 10px;
@@ -118,7 +138,7 @@ form{
     height: 20px;
 }
 
-#qtt{
+#qtt {
     width: 350px;
     border-radius: 10px;
     font-family: sans-serif;
@@ -126,6 +146,7 @@ form{
     font-weight: bolder;
     height: 20px;
 }
+
 #p {
     background-color: transparent;
     padding-top: 22px;
@@ -135,22 +156,16 @@ form{
 }
 
 
-
-
-#deletB {
-    display: flex;
-    margin-right: 600px;
-    justify-content: right;
-    margin-top: 22px;
-}
-
-.delet {
+#delet a {
+    height: auto;
+    background-color: rgb(199, 11, 11);
     text-decoration: none;
-    background-color: rgb(214, 2, 2);
-    border-style: double;
-    margin-left: 100px;
-    padding: 9px;
-    border-radius: 200px;
+    border-style: outset;
+    border-radius: 3px;
+    width: 120px;
+    margin: 59px;
+    margin-bottom: 50px;
+    padding: 6px;
 }
 
 table {
@@ -163,32 +178,33 @@ table {
     color: rgb(122, 122, 122);
 }
 
-tr{
+tr {
     font-weight: bolder;
 }
 
-th, td {
-    
+th,
+td {
+
     font-family: sans-serif;
-    border-style:groove ;
+    border-style: groove;
     width: 500px;
     padding: 3px;
     text-align: center;
-    
+
 
 }
 
 th {
-border-color: #000000;
-border-style: double;
-height: 10px;
-font-weight: bolder;
-padding: 10px;
+    border-color: #000000;
+    border-style: double;
+    height: 10px;
+    font-weight: bolder;
+    padding: 10px;
 
 }
 
 td {
-    font-size: 25px;
+    font-size:large;
 
 }
 
@@ -217,4 +233,3 @@ img {
     color: rgb(1, 168, 1);
 
 }
-

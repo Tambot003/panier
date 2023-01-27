@@ -10,9 +10,14 @@
 
   <li>
     <div class="cen1">
-      <a id="homeb" href="index.php">HOME </a>
+      <div id="homeb">
+      <a  href="index.php">HOME </a>
+      </div>
+
       &nbsp&nbsp&nbsp&nbsp
+      <div id="recapb">
       <a id="recapb" href="recap.php">RECAPLUTIVE</a>
+      </div>
     </div>
 
     <?php
