@@ -14,9 +14,10 @@ session_start();
 </head>
 
 <body>
-    <div class="cen2">
-        <a href="index.php">HOME</a>
-        <a href="recap.php">RECAPLUTIVE</a>
+       <div class="cen2">
+        <a id="homeR" href="index.php">HOME</a>
+        &nbsp &nbsp&nbsp&nbsp
+        <a id="recapR" href="recap.php">RECAPLUTIVE</a>
     </div>
     <?php
     if (!isset($_SESSION['products']) || empty($_SESSION['products'])) {
@@ -43,7 +44,7 @@ session_start();
                 "<td>" . $product["name"] . "</td>",
                 "<td>" . number_format($product["price"], 2, ",", "") . " €</td>",
                 //dans la ligne suivante id est lié a $_GET['id'] si $_GET['id'] serait $_GET['lol'], id ici serait lol
-                "<td><a class='test' href='traitement.php?action=lowerQtt&id=$index'> - </a>" . $product["qtt"] . "<a class='test2' href='traitement.php?action=addQtt&id=$index'> + </a>" . "<a href='traitement.php?action=" . $index . "'></a></td>",
+                "<td><a class='mminimization' href='traitement.php?action=lowerQtt&id=$index'> - </a>" . $product["qtt"] . "<a class='maximization'  href='traitement.php?action=addQtt&id=$index'> + </a>" . "<a href='traitement.php?action=" . $index . "'></a></td>",
                 "<td>" . number_format($product["total"], 2, ",", "") . " € </a>" . "<a href='traitement.php?action=deletePanier&id=" . $index . "'> <img src='photo\le potit.png' alt=''/> </a></td>",
                 "</tr>";
             $totalGeneral += $product["total"];

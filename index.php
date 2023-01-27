@@ -8,55 +8,57 @@
 <body>
 
 
-  <div class="cen1">
-    <a href="index.php">HOME</a>
-    <a href="recap.php">RECAPLUTIVE</a>
-  </div>
+  <li>
+    <div class="cen1">
+      <a id="homeb" href="index.php">HOME </a>
+      &nbsp &nbsp&nbsp&nbsp
+      <a id="recapb" href="recap.php">RECAPLUTIVE</a>
+    </div>
 
-  <?php
-  session_start();
-  $message = (isset($_SESSION['message'])) ? $_SESSION['message'] : null;
-  // if (isset($_SESSION['message'])){
-  //   $message =  $_SESSION['message'];
-  // }
-  // else{
-  //   $message = null;
-  // }
-  echo $message;
-  unset($_SESSION['message']);
-  ?>
-  <div id="p">
+    <?php
+    session_start();
+    $message = (isset($_SESSION['message'])) ? $_SESSION['message'] : null;
+    // if (isset($_SESSION['message'])){
+    //   $message =  $_SESSION['message'];
+    // }
+    // else{
+    //   $message = null;
+    // }
+    echo $message;
+    unset($_SESSION['message']);
+    ?>
+    <div class="cantinaier">
 
-    AJOUTER LE PRODUIT
-  </div>
-  <div class="tam">
-    <form action="traitement.php?action=addproducts" method="post">
+      <h1 id="p"> AJOUTER LE PRODUIT</h1>
 
-      <label for="name">NOM :
-        <input type="text" name="name" id="name">
-      </label>
-      <br>
-      <br>
 
-      <label for="price">PRIX :
-        <input type="number" name="price" id="price">
-      </label>
-      <br>
-      <br>
+      <form action="traitement.php?action=addproducts" method="post">
 
-      <label for="qtt">QUANTITE :
-        <input type="number" name="qtt" id="qtt"><br>
-      </label>
-      <br>
-      <br>
+        <label for="name">NOM :
+          <input type="text" name="name" id="name">
+        </label>
+        <br>
+        <br>
 
-      <input type="submit" name="submit" value="Accept">
-    </form>
-  </div>
-  <div id="deletB">
-    <inpuet type="submit" name="submit" value="delet">
-  </div>
-  </div>
+        <label for="price">PRIX :
+          <input type="number" name="price" id="price">
+        </label>
+        <br>
+        <br>
+
+        <label for="qtt">QUANTITE :
+          <input type="number" name="qtt" id="qtt"><br>
+        </label>
+        <br>
+        <br>
+
+        <input type="submit" name="submit" value="Accept">
+      </form>
+    </div>
+    <div id="deletB">
+      <inpuet type="submit" name="submit" value="delet">
+    </div>
+    </div>
 
 
 </body>

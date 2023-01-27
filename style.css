@@ -1,47 +1,81 @@
-* {
-    background-color: #FFFFF0;
-    padding: 9px;
-    margin: 0px;
-
-    /* font-family: "Press Start 2P"; */
-}
-
-#lin {
-    margin-left: 55px;
-
-}
-
+/*--------------------HEADER HOME----------------------*/
 .cen1 {
-
     background-color: rgb(73, 73, 73);
     color: white;
     padding: 10px;
-
-}
-
-.cen1 a {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 3px;
     display: flex;
     text-align: center;
     justify-content: center;
+    border-radius: 33px;
+}
+#homeb {
+    color: beige;
+    text-decoration: none;
+    border-style: outset;
+    border-radius: 3px;
+    width: 100px;
+}
+#recapb {
+    color: beige;
+    text-decoration: none;
+    border-style: outset;
+    border-radius: 3px;
+    width: 100px;
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
 }
 
+
+/*--------------------HEADER RECAP----------------------*/
 .cen2 {
     background-color: rgb(73, 73, 73);
     color: white;
     padding: 10px;
-}
-
-.cen2 a {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 3px;
     display: flex;
     text-align: center;
     justify-content: center;
+    border-radius: 33px;
 }
+#homeR {
+    color: beige;
+    text-decoration: none;
+    border-style: outset;
+    border-radius: 3px;
+    width: 100px;
+}
+#recapR {
+    color: beige;
+    text-decoration: none;
+    border-style: outset;
+    border-radius: 3px;
+    width: 100px;
+}
+
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+.cantinaier {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: auto;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(209, 209, 209);
+    padding: 22px;
+    border-style: unset;
+    border-radius: 20px;
+    font-family: Press Start 2P;
+    color: rgb(122, 122, 122);
+}
+
 
 #p {
     padding-top: 22px;
@@ -51,22 +85,6 @@
 }
 
 
-
-.tam {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 150px;
-    width: 450px;
-    height: 380px;
-    background-color: rgb(233, 233, 233);
-    padding-top: 5px;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    font-family: 'Lato', sans-serif;
-    color: rgb(122, 122, 122);
-
-}
 
 
 #deletB {
@@ -126,4 +144,17 @@ a {
 img {
 
     margin-top: 2px;
+}
+
+
+
+
+
+.mminimization {
+    color: rgb(255, 0, 0);
+}
+
+.maximization {
+    color: rgb(17, 119, 17);
+
 }
